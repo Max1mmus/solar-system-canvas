@@ -1,10 +1,56 @@
+body {
+    background-color: black;
+    font-family: "Amatic SC", Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
 h1 {
     text-align: center;
     margin: 0px;
 }
 
 canvas {
-    border: 2px solid;
     display: flex;
     margin: auto;
 }
+
+
+.switch {
+    width: 90px;
+    height: 36px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    background-color: #A3A87A4A;
+}
+
+p {
+    margin: 0px;
+}
+
+.switch::after{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 31px;
+    background-color: blanchedalmond;
+    top: 2px;
+    left: 2px; 
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox:checked + .switch {
+    background-color: #A3A87A4A;
+}
+
+.checkbox:checked + .switch::after{ 
+    content: ""; 
+    left : 44px;
+}
+
