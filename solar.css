@@ -35,7 +35,7 @@ p {
     height: 31px;
     background-color: blanchedalmond;
     top: 2px;
-    left: 2px; 
+    left: 2px;
     transition: all 0.3s;
     border-radius: 10px;
 }
@@ -48,8 +48,8 @@ p {
     background-color: #A3A87A4A;
 }
 
-.checkbox:checked + .switch::after{ 
-    content: ""; 
-    left : 44px;
+.checkbox:checked + .switch::after{
+    content: "";
+    left: 44px;
 }
 
