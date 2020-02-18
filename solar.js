@@ -48,7 +48,6 @@ function drawSystem(){
     drawOrbit(40, 0, 0);
     ctx.rotate(time / 30)
     drawPlanet(5, "#97979F", 40, 0);
-    
 
     // Venus
     drawOrbit(60, 0, 0, "1");
@@ -76,7 +75,7 @@ function drawSystem(){
     drawOrbit(45, 300, 0, "5");
     drawPlanet(35, "#DAC29F", 300, 0);
 
-    // Uranus
+    // Uranus, you never get old
     drawOrbit(340, 0, 0, "1");
     ctx.rotate(time / 120 - (time / 90));
     drawPlanet(32, "#B7D1F8", 340, 0)
